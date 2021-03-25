@@ -1,5 +1,11 @@
 # telegrambot-nodejs
 
+## Using
+
+- [telegraf](https://github.com/telegraf/telegraf)
+- [random](https://www.npmjs.com/package/random)
+- [config](https://www.npmjs.com/package/config)
+
 ## Installation
 ```js
 $ npm install
