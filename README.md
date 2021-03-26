@@ -5,6 +5,7 @@
 - [telegraf](https://github.com/telegraf/telegraf)
 - [random](https://www.npmjs.com/package/random)
 - [config](https://www.npmjs.com/package/config)
+- [pm2](https://www.npmjs.com/package/pm2)
 
 ## Installation
 ```js
@@ -30,4 +31,8 @@ Open file ./config/default.json and write your *token* in empty value
 ## Run
 ```js
 $ npm start
+```
+### Run with PM2
+```js
+$ pm2 --name Bot start npm -- start
 ```
